@@ -1,0 +1,178 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  cursor: pointer;
+  color: inherit;
+}
+header {
+  padding-top: 15px;
+  margin-bottom: 15px;
+  text-align: right;
+  padding-right: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  height: 40px;
+  background-color: rgb(243, 243, 243);
+}
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 20px;
+  transition: 0.1;
+}
+li:hover {
+  opacity: 0.7;
+}
+main {
+padding-top: 30px;
+}
+.top{
+  background-image:url("image/background-1180666_1920.jpg");
+  background-size: cover;
+  width: 100%;
+  color:#fff;
+  padding: 200px 0;
+  
+}
+
+.top-text {
+  text-align: center;
+  font-size: 50px;
+}
+.about {
+  padding-bottom: 100px;
+}
+h2 {
+  padding-top: 50px;
+  text-align: center;
+}
+.rubi {
+  text-align: center;
+  font-size: 10px;
+  margin-bottom: 80px;
+}
+.text1 {
+  text-align: center;
+  line-height: 50px;
+  padding-bottom: 60px;
+}
+.text2 {
+  text-align: center;
+  line-height: 50px;
+}
+.skills {
+  text-align: center;
+  background-color: #5e5e5e;
+  color:aliceblue;
+}
+.contact {
+  text-align: center;
+  background-color: #5e5e5e;
+  color: aliceblue;
+  height: 600px;
+}
+.contact-form {
+  width: 50%;
+  margin: 50px auto 0;
+}
+.contact-form input[type=text]
+{
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.contact-form textarea  {
+  display: block;
+  width: 100%;
+  height: 200px;
+}
+.btn {
+  padding:0  30px;
+  margin: 10px 0;
+  border-radius: 5px;
+} 
+.sk-t {
+  display: flex;
+}
+.sk-b {
+  display: flex;
+}
+.sk-image {
+  width: 50px;
+}
+.sk-image.hc {
+  width: 130px;
+}
+.php-image {
+  width: 100px;
+}
+.skillsetitem {
+  display: flex;
+  margin-bottom: 150px;
+  margin-left: 50px;
+  margin-right: 50px;
+  align-items: center;
+}
+
+.skill-text {
+  padding-top: 30px;
+  padding-left: 20px;
+  text-align: left;
+  line-height: 30px;
+}
+.work-flex {
+  display: flex;
+  padding:0 30px 50px;
+  align-items: center;
+}
+.work-image {
+  width: 25%;
+  margin-right: 50px;
+}
+.border {
+  border-top: 0.5px solid #b4b2b2;
+  padding-top: 20px;
+}
+.work-text{
+ line-height: 40px;
+}
+footer {
+  background-color: rgb(43, 42, 42);
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+.copy {
+  opacity: 0.8;
+  font-size: 10px;
+}
+.fade-up {
+ opacity: 0;
+ transform: translateY(50px);
+}
+.scroll-action {
+  transition: .6s;
+  transform: translateY(0);
+  opacity: 1;
+}
+.scroll-action2 {
+  transition: 1.2s;
+  transform: translateY(0);
+  opacity: 1;
+}
+.center {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.githubpages {
+  color: red;
+  text-decoration: none;
+}
+
+

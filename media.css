@@ -1,0 +1,117 @@
+@media screen and (max-width:480px){
+  #nav {
+    box-sizing: border-box;
+    position: fixed;
+    top: 40px;
+    right: 0px;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    opacity: 0.9;
+  }
+  #nav.open {
+    display: block;
+    animation: anim 1s;
+  }
+  @keyframes anim {
+    0% {
+    transform: translateX(300px);
+    }
+    100% {
+    transform: translateX(0px);
+    }
+  }
+   #nav ul {
+    text-align: center;
+  }
+   #nav ul a {
+    display: block;
+    margin-top: 100px;
+    cursor: pointer;
+  }
+  h1{
+    font-size: 50px;
+  }
+  .sub {
+    font-size: 20px;
+  }
+  h2{
+    font-size: 18px;
+  }
+  .text1 {
+   font-size: 12px;
+  }
+  .text2 {
+   font-size: 12px;
+   margin: 0 10px;
+  }
+  .skillsetitem {
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    padding: 0;
+  }
+  .sk-t {
+   flex-wrap: wrap;
+  }
+  .sk-b {
+    flex-wrap: wrap;
+  }
+  .work-flex {
+    flex-wrap: wrap;
+    padding:0 30px 50px;
+   font-size: 12px;
+  }
+  .work-image {
+    width: 100%;
+    margin-right: 10px;
+  }
+  
+
+  #hamburger-menu {
+    z-index: 2;
+    box-sizing: border-box;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 40px;
+    padding: 20px 15px;
+  }
+  #hamburger-menu span {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    width: 80%;
+    height: 3px;
+    border-radius: 2px;
+    background-color: #666;
+    vertical-align: top;
+  }
+  #hamburger-menu span:nth-child(2) {
+    margin-top: 10px;
+  }
+  #hamburger-menu span:last-child {
+    margin-top: 20px;
+  }
+
+
+  #hamburger-menu.open span {
+   top: 24px;
+   left: 14px;
+   width: 30px;
+   margin: 0;
+  }
+
+  #hamburger-menu.open span:first-child {
+    transform: rotate(45deg);
+  }
+  #hamburger-menu.open span:last-child { 
+    transform: rotate(-45deg);
+  }
+  #hamburger-menu.open span:nth-child(2) { 
+    display: none;
+  }
+}

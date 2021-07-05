@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>my portfoli</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+</head>
+<body>
+  <header>
+    <div id="hamburger-menu">
+    <span></span>
+    <span></span>
+    <span></span>
+    </div>
+    <div id="nav">
+      <ul>
+      <a href="#top"><li class="menu">Top</li></a>
+      <a href="#about"><li class="menu">About</li></a>
+      <a href="#skills"><li class="menu">Skills</li></a>
+      <a href="#works"><li class="menu">Works</li></a>
+      <a href="#contact"><li class="menu">Contact</li></a>
+    </ul>
+    </div>
+  </header>
+  <main>
+    <div id="top" class="top">
+        <div class="top-text">
+          <h1>Jumpei Fujita</h1>
+          <div class="sub">Portfoli Saito</div>
+      </div>
+    </div>
+      <section id="about" class="about">
+        <h2>About me</h2>
+        <p class="rubi">自己紹介</p>
+        <div class="fade-up js-trigger">
+          <p class="text1">はじめまして。藤田純平と申します。</br>
+            大阪の大学卒業後、東大阪で製造業をしている会社員です。</br>
+            2020年12月頃から、プログラミングの勉強を始めました。</p>
+            <p class="text2">このサイトは私が勉強を始めて、約半年が経過した段階での</br>
+              スキルと制作物をポートフォリオとしてまとめたものとなります。<br>制作した目的としてはアウトプットすることで自分の成長を見える形で確認したかったということがあります。</p>
+      </div>
+    </section>
+    <section id="skills" class="skills">
+      <h2>Skills</h2>
+      <p class="rubi">スキル紹介</p>
+        <div class="sk-t">
+          <div class="skillsetitem fade-up js-trigger">
+              <div class="sk-icon">
+                <img class="sk-image hc" src="image/hc.png" alt="HTML">
+                <p>HTML5/CSS3</p>
+              </div>
+              <div class="skill-text">
+                エディタはVisualStudioCodeを使用しております。基本的なコードは書けます。レスポンシブ化も可能です。</br>勉強方法についてはProgeteから始め、その後は書籍や動画サイトの教材を参考に模写コーディングをし、基礎を学びました。
+              </div>
+          </div>
+          <div class="skillsetitem fade-up js-trigger2">
+              <div class="sk-icon">  
+                <img class="sk-image" src="image/javascript.svg" alt="JavaScript">
+                <p>JavaScript(jquery)</p>
+              </div>
+              <div class="skill-text">
+                Progeteで基礎を学びました。 複雑なコードを書くことは難しいですが、DOM操作を行い、動的なサイトを作ることができます。</br>ライブラリはjQueryを使っています。React.jsを勉強中です。
+              </div>
+          </div>
+        </div>
+        <div class="sk-b">
+          <div class="skillsetitem fade-up js-trigger">
+              <div class="sk-icon">
+                <img class="php-image" src="image/php.svg" alt="PHP">
+                <p>PHP</p>
+              </div>
+              <div class="skill-text">
+                Progete及び、XAMPのローカル環境で勉強しています。コーディングしたサイトをWordpress化する方法を学びました。<br>データベースはmySQLを勉強中です。
+              </div>
+          </div>
+          <div class="skillsetitem fade-up js-trigger2">
+              <div class="sl-icon">
+                <img class="sk-image" src="image/icons8-adobe-photoshop-48.png" alt="Phtoshop">
+                <p>Phtoshop</p>
+              </div>
+              <div class="skill-text">
+                画像の切り出しやレイヤースタイルの変更などの基本的な操作ができます。様々なLPやサイトをみて、デザインについても勉強中です。
+              </div>
+          </div>
+        </div>
+      </section>
+      <section id="works" class="works">
+        <h2>Works</h2>
+        <p class="rubi">制作物</p>
+        <div class="works-flex">
+          <div class="work-flex  fade-up js-trigger">
+            <img class="work-image" src="image/my portfoli - .png" alt="ポートフォリオサイト">
+            <p class="work-text">このサイトです。HTML/CSS・jQueryを使ってレスポンシブでコーディングしています。簡単ではありますが、デザインから作りました。<br>できるだけシンプルで見やすいように意識してデザインしています。<br>
+            jqueryを使い少し動きをつけています。スクロールすると下からふわっと要素が浮かび上がるようにアニメーションをつけました。<br>次回はもう少し複雑な動きをつけてみたいです。</p>
+          </div>
+          <div class="center">
+            <a class="githubpages" href="https://fujitajj.github.io/my_App/">GitHub</a>
+          </div>
+          <div class="work-flex  fade-up js-trigger border">
+            <img class="work-image" src="image/逆三角関数 計算ツール - .png" alt="逆三角関数計算ツール">
+            <p class="work-text">仕事で関数電卓を使って角度を求めることが多いため今回作ってみました。<br>
+              調べると似たようなサイトは既にあったのですが、今回ロジックは自分で考えると決めていたので、あまり参考にしていません。生のJavaScriptを使用しています。<br>
+              ｘ、ｙ、ｒの三辺のうち二辺を入力すると角度が求められます。クリアボタンを実装し、押すとすべての入力をリセットできます。<br>
+              次回への改善点としては、角度がわかっている場合に辺を求めることもできるように出来ればよかった点と、<br>計算できない数値が入力された場合や、3か所にに値が入力された場合の処理も考えればよかった点です。</p>
+            </div>
+            <div class="center">
+              <a class="githubpages" href="https://fujitajj.github.io/my_App/">GitHub</a>
+            </div>
+        </div>
+      </section>
+      <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p class="rubi">お問い合わせ</p>
+        <form class="contact-form">
+          <input type="text" name="name" placeholder="名前">
+          <input type="text" name="adress" placeholder="メールアドレス">
+          <input type="text" name="name" placeholder="件名">
+          <textarea name="message" placeholder="MESSAGE">
+          </textarea>
+          <input class="btn" type="submit" value="送信"> 
+        </form>
+      </section>
+    </main>
+    <footer>
+     <p class="copy">©jumpei fujita.portfolio.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
